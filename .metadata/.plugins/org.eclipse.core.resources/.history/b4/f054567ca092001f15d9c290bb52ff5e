@@ -1,0 +1,14 @@
+package com.test2;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+
+		child c = new child();
+		c.m1();
+		c.m2();
+
+	}
+
+}

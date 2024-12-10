@@ -1,0 +1,25 @@
+package com.test2;
+
+
+
+public  class Tset12 extends shepo {
+	
+	int z;
+	
+	
+
+	public Tset12(int i, float k, int z) {
+		super(i, k);
+		this.z = z;
+	}
+
+
+
+	public static void main(String[] args) {
+		
+		Tset12 s = new Tset12(10,20,30);
+
+		
+	
+	}
+}

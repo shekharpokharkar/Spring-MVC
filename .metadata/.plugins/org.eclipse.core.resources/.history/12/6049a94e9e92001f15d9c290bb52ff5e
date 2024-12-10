@@ -1,0 +1,9 @@
+package com.test2;
+
+public class a {
+
+	static
+	{
+		System.out.println("***************");
+	}
+}
