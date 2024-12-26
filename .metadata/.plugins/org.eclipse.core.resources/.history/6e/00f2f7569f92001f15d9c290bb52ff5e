@@ -1,0 +1,19 @@
+package com.test2;
+
+public class shepo {
+	
+	{
+		System.out.println("Inside Instance block");
+	}
+	
+	int i;
+	float k;
+	public shepo(int i,float k)
+	{
+		super();
+		this.i=i;
+		this.k=k;
+		System.out.println("Inside Constructor");
+	}
+
+}

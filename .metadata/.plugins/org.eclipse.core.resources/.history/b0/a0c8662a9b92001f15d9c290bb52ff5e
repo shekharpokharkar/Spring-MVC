@@ -1,0 +1,13 @@
+package com.test2;
+
+
+
+public abstract class Tset12 {
+	public static void main(String[] args) {
+		
+		shepo s=new shepo();
+
+		
+	
+	}
+}

@@ -1,0 +1,26 @@
+package com.test2;
+
+public class child {
+	
+	public static int i=100;
+	static
+	{
+		System.out.println("parent class static block");
+	}
+	public int j=250;
+	{
+		System.out.println("parent class instance block");
+	}
+	
+	public static void m1()
+	{
+		System.out.println("parent class static method");
+		System.out.println(i);
+	}
+	public void m2()
+	{
+		System.out.println("parent class instance method");
+		System.err.println("i="+i+" "+"j="+j);
+	}
+
+}
