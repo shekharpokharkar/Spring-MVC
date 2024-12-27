@@ -1,0 +1,31 @@
+# Maven build directories
+/target/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse project files
+.project
+.classpath
+.settings/
+
+# macOS Finder
+.DS_Store
+
+# Windows thumbnail cache files
+Thumbs.db
+
+# Logs
+*.log
+
+# Gradle
+.gradle/
+build/
+
+# Other common IDE files
+.vscode/
+
+# Temporary files created by the IDE
+*.swp
+*.swo
