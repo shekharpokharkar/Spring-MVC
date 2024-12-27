@@ -48,7 +48,7 @@ public class EmailController {
 
 	@InitBinder
 	public void initBinder(WebDataBinder binder) {
-		System.out.println("Inside Init Data binder");
+		//System.out.println("Inside Init Data binder");
 		// 20,000.00 -> 20000.00
 		NumberFormat format = new DecimalFormat("##,###.00");
 		CustomNumberEditor editor = new CustomNumberEditor(BigDecimal.class, format, true);
@@ -59,7 +59,7 @@ public class EmailController {
 		CustomDateEditor editor1 = new CustomDateEditor(dateformat, true);
 		binder.registerCustomEditor(Date.class, "date", editor1);
 
-		System.out.println("*****1213**********");
+		//System.out.println("*****1213**********");
 		binder.addValidators(new AgeValidator2());
 
 	}
